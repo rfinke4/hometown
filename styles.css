@@ -1,0 +1,143 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+#hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    background-image: url("./images/NorthsideMural.jpg");
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: center;
+    background-color: grey;
+    padding-top: 119px;
+    padding-bottom: 119px;
+}
+
+h1 {
+    background: #1D3557;
+    border-radius: 10px;
+    color: white;
+    font-size: 32px;
+    padding: 10px 15px;
+}
+
+h2 {
+    margin-top: 30px;
+    max-width: 412px;
+    color: #f15c22;
+    text-shadow: 1px 1px 15px grey;
+    font-size: 40px;
+    border-radius: 10px;
+    padding: 5px 29px
+}
+
+h3, h4 {
+    color: white;
+}
+
+#activities {
+    padding-top: 39px;
+    padding-bottom: 38px;
+    background-color: #f15c22;
+
+    
+    
+}
+
+.image-section{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;   
+
+}
+
+.image-column {
+    padding: 0 20px;
+    max-width: 180px;
+
+}
+
+
+.img {
+    border-radius: 50%;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+h4 {
+    font-weight: 400;
+}
+
+.guide {
+    margin: 50px auto;
+    margin-bottom: 50px;
+    width: 400px;
+    height: 294px;
+    border-radius: 10px;
+    display: flex;
+    background-color: lightgrey;
+    border-color: #A8DADC;
+    align-items: center;
+    padding-left: 13px;
+    padding-right: 13px;
+    border-bottom: 5px solid #f15c22;
+ 
+}
+
+.guide p {
+    font-style: italic;
+}
+
+.guide h3 {
+    color: black
+}
+
+.guide h4 {
+    color: black;
+}
+
+.avatar {
+    width: 180px;
+    height: 248px;
+    border-radius: 10px;
+}
+
+#northside-logo {
+    display: flex;
+    align-items: center;
+    filter: drop-shadow(0 0 5px black)
+}
+
+a:link {
+  color: white;
+  background-color: transparent;
+
+}
+
+a:visited {
+    color: white;
+    background-color: transparent;
+}
