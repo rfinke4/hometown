@@ -43,8 +43,8 @@ h1 {
 h2 {
     margin-top: 30px;
     max-width: 412px;
-    color: #f15c22;
-    text-shadow: 1px 1px 15px grey;
+    color: white;
+    text-shadow: 0px 0px 5px #f15c22;
     font-size: 40px;
     border-radius: 10px;
     padding: 5px 29px
@@ -123,6 +123,7 @@ h4 {
     width: 180px;
     height: 248px;
     border-radius: 10px;
+    margin-right: 10px
 }
 
 #northside-logo {
